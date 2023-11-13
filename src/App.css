@@ -1,0 +1,26 @@
+#root {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.navBar {
+  position: fixed;
+  width: 100%;
+  background-color: #00a856;
+  color: white;
+  padding: 8px 0;
+  box-shadow: #666 0 0 8px;
+}
+
+.navBar.thinking {
+  background: yellow;
+  color: black;
+}
+
+.board {
+  background-color: aquamarine;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
