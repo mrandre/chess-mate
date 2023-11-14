@@ -18,11 +18,12 @@ Illegal moves are blocked.
 2. Wait for the computer to move a black piece.
 3. Note: The computer makes bad moves.
 
-# Test Plan
+# Running Tests
 
-1. Validate that invalid moves are not allowed, and the user
-2. Validate that nav turns yellow while
-   computer move is being selected with correct text.
+This app uses [Playwright](https://playwright.dev/)
+
+To run them run `yarn playwright test`
+To run interactively, run `yarn playwright test --ui`
 
 # Next steps
 
